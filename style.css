@@ -63,14 +63,23 @@ main .logo img {
   align-items: center;
   gap: 15px;
 }
-.btns button {
+.btns .link {
   width: 100%;
   padding: 6px;
   border: 1px solid #762f56;
   border-radius: 10px;
   box-shadow: 3px 2px 2px rgba(118, 47, 86, 0.3176470588);
 }
+.btns .link:hover {
+  transform: scale(1.02);
+}
 
 .info {
   font-style: italic;
+}
+
+@media (max-width: 400px) {
+  main {
+    width: 280px;
+  }
 }/*# sourceMappingURL=style.css.map */

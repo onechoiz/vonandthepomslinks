@@ -71,15 +71,26 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    button {
+    .link{
         width: 100%;
         padding: 6px;
         border: 1px solid $purp;
         border-radius: $bd;
         box-shadow: 3px 2px 2px #762f5651;
     }
+    .link:hover{
+        transform: scale(1.02);
+    }
 }
 
 .info{
     font-style: italic;
+}
+
+
+@media (max-width: 400px){
+    main{
+        width: 280px;
+    }
+
 }
